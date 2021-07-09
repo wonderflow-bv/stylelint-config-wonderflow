@@ -1,4 +1,4 @@
-export const stylelintConfig = {
+module.exports = {
   extends: 'stylelint-config-equinusocio',
   ignoreFiles: ['!**/*.css', '**/*.jsx', '**/*.tsx', '**/*.ts', 'node_modules'],
   plugins: ['stylelint-design-tokens-plugin'],
