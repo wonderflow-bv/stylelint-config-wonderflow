@@ -38,9 +38,6 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Build
-        run: npm run build
-
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.WONDERFLOW_WORKFLOW_TOKEN }}
