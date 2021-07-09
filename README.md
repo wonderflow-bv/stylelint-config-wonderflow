@@ -5,7 +5,7 @@
 This repository contains the source code of Wonderflow stylelint rules to ensure your CSS is compliant with Wonderflow CSS coding standards.
 
 ```sh
-npm i @wonderflow/stylelint-config
+npm i -D @wonderflow/stylelint-config
 ```
 
 ## Usage
