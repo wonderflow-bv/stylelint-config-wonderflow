@@ -14,6 +14,13 @@ Extends the configuration from your local `stylelint` configuration file:
 
 ```json
 {
-  "extends": "@wonderflow/stylelint-config"
+  "extends": "@wonderflow/stylelint-config",
+  "ignoreFiles": [
+    "!**/*.css",
+    "**/*.jsx",
+    "**/*.tsx",
+    "**/*.ts",
+    "node_modules"
+  ]
 }
 ```
