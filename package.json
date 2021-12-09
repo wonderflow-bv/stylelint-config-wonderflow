@@ -34,7 +34,7 @@
     "stylelint": "14.x"
   },
   "dependencies": {
-    "stylelint-config-equinusocio": "1.5.0",
+    "stylelint-config-equinusocio": "1.5.1",
     "stylelint-design-tokens-plugin": "0.0.13"
   },
   "devDependencies": {
