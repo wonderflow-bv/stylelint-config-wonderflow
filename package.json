@@ -30,11 +30,11 @@
     "release": "semantic-release"
   },
   "peerDependencies": {
-    "stylelint": "14.x",
-    "@wonderflow/tokens": "1.x"
+    "@wonderflow/tokens": "1.x",
+    "stylelint": "14.x"
   },
   "dependencies": {
-    "stylelint-config-equinusocio": "1.1.0",
+    "stylelint-config-equinusocio": "1.2.0",
     "stylelint-design-tokens-plugin": "0.0.13"
   },
   "devDependencies": {
