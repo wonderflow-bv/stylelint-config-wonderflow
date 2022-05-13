@@ -1,7 +1,7 @@
 {
   "name": "@wonderflow/stylelint-config",
   "description": "Wonderflow stylelint sharable configuration",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "author": "Wonderflow",
   "license": "MIT",
   "main": "index.js",
