@@ -27,7 +27,7 @@
     "lint:commits": "commitlint --edit",
     "test": "jest",
     "prepare": "is-ci || husky install",
-    "release": "semantic-release"
+    "release": "changeset publish"
   },
   "peerDependencies": {
     "@wonderflow/tokens": "1.x",
@@ -38,13 +38,9 @@
     "stylelint-design-tokens-plugin": "0.0.14"
   },
   "devDependencies": {
+    "@changesets/cli": "2.22.0",
     "@commitlint/cli": "16.2.4",
     "@commitlint/config-conventional": "16.2.4",
-    "@semantic-release/commit-analyzer": "9.0.2",
-    "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "8.0.4",
-    "@semantic-release/npm": "9.0.1",
-    "@semantic-release/release-notes-generator": "10.0.3",
     "@wonderflow/eslint-config": "1.1.11",
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
