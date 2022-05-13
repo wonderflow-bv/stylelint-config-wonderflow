@@ -30,7 +30,7 @@
     "release": "changeset publish"
   },
   "peerDependencies": {
-    "@wonderflow/tokens": "1.x",
+    "@wonderflow/tokens": "*",
     "stylelint": "14.x"
   },
   "dependencies": {
